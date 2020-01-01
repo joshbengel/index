@@ -52,7 +52,7 @@ function printTable(start,rolls,max,rollsMax){
 	document.getElementById("resulttable").style.display="block";
 	document.getElementById("sb").innerText=start;
 	document.getElementById("rolls").innerText=rolls;
-	document.getElementById("max").innerText=max;
+	document.getElementById("max").innerText=max.toFixed(2);
 	document.getElementById("rollsMax").innerText=rollsMax;
 }
 	
