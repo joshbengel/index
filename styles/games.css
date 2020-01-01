@@ -1,0 +1,61 @@
+
+header{
+	text-align: center;
+	background-color:#d3d3d3;
+	float:center;
+}
+
+body{
+	padding-left:10%;
+	padding-right:10%;
+	text-align: center;
+	max-width: auto;
+	padding-bottom:100px;
+}
+
+#square_output{
+	border: thick solid black;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+.jumbotron{
+	text-align: center;
+}
+
+#pressPlay{
+	margin: 5px;
+	border: thick solid black;
+	text-align:center;
+	font-size: 5em:
+	
+	
+}
+
+hr{
+	margin:5px;
+	border: 2px solid black;
+}
+#resultstable{
+	border: thick solid black;
+	text-align: left;
+	font-size: 1.5em;
+	
+	
+}
+
+table tbody tr:nth-child(odd){
+			
+			background-color: #d3d3d3
+			}
+
+.col-8{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.col-4{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
