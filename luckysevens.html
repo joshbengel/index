@@ -1,0 +1,71 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title> Lucky Seven- Josh Engel </title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> 
+		<link href="styles/games.css" rel="stylesheet" type="text/css" />
+		
+		
+	</head>
+
+	<body>
+		<div class="container">
+			<header class="jumbotron">
+				<h1>Lucky Sevens! </h1>
+			</header>
+		</div>
+		<div class="row">
+				<div class="col-lg col-md">
+					<p style = "font-size:2em" >
+					<strong>Starting Bet: </strong>
+					</p>
+				</div>
+				<div class="col-lg col-md">
+					<article id="square_output">
+					$0.00
+					</style>
+					</article>
+					
+				</div>
+		</div>
+		<hr/>
+		<div class="">
+			<div class="col text-center">
+				<button class="btn" id= "pressPlay" onclick="startBet('Please enter your starting bet:');">Play</button>	
+			</div>
+		</div>
+
+	<div class="container"  id="resulttable" style="display:none;">
+		<div class="container">
+			<header class="jumbotron">
+				<h1>Results! </h1>
+			</header>
+			<table class="table">
+				<tbody>
+					<tr>
+						<th class="col-8" > Starting Bet: </th>
+						<th class="col-4" id="sb">  replace </th>
+					</tr>
+					<tr>
+						<th class="col-8" > Total Rolls Before Going Broke: </th>
+						<th class="col-4" id="rolls">   replace </th>
+					</tr>
+					<tr>
+						<th class="col-8" > Highest Amount Won </th>
+						<th class="col-4" id="max">   replace </th>
+					</tr>
+					<tr>
+						<th class="col-8" > Roll Count at Highest Amount Won </th>
+						<th class="col-4" id="rollsMax">   replace </th>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+			</div>
+			<script type="text/javascript" src="scripts/luckysevens.js"> </script>
+			
+			
+</body>
+
+</html>
